@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+/*encabezado*/
+
+header{
+    width: 100%;
+    height: 30px;
+    background-color: #45454d;
+    overflow: hidden;
+
+  
+
+}
+
+.logo{
+    float: left;
+    padding-top: 2px;
+    padding-left: 5px;
+}
+
+.logo h3{
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+}
+
+.hamburguesa{
+    display: inline;
+    
+}
+
+.fas.fa-bars{
+    color: white;
+    margin-left: 7px;
+    margin-top: 8px;
+
+}
+
+.login-compras{
+    float: right;
+    overflow: hidden;
+
+    
+}
+
+.usuario{
+    float: left;
+    margin-right: 5px
+
+}
+
+.fas.fa-user{
+ 
+    color: white;
+    margin-top: 6px;
+    margin-right: 2px;
+    
+}
+
+.login-escritorio{
+    display: none;
+}
+
+.carrito{
+    float: right;
+}
+
+.fas.fa-shopping-cart{
+    color: white;
+    margin-right: 5px;
+    margin-top: 6px
+    
+}
+
+
+
+
+/*cuerpo principal*/
+
+main{
+    margin-top: 2px;
+}
+.busqueda{
+    overflow: hidden;
+}
+
+.lupa{
+    float: left;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+form{
+    float: left;
+    width: 90%;
+    margin-left: 7px;
+}
+
+input.buscar{
+    width: 100%;
+    border: 0%;
+    -webkit-appearance: none;
+    
+}
+
+#carouselExampleControls{
+margin-top: 5px;
+}
+
+
+/*versión de Escritorio*/
+
+@media (min-width: 1024px){
+    
+    .hamburguesa{
+        display: none;
+    }
+
+    .usuario{
+        display: none;
+        
+    }
+
+
+.login-escritorio{
+    margin-right: 30px;
+    display: inline-block;
+    
+}
+.login-escritorio li{
+    display: inline;
+    padding-right: 20px;
+}
+.link{
+    color: white;
+
+}
+
+.fas.fa-shopping-cart{
+    margin-right: 15px;
+}
+
+.busqueda{
+    text-align: center;
+}
+}
