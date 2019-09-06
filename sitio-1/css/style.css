@@ -15,7 +15,7 @@ header{
     background-color: #45454d;
     overflow: hidden;
 
-  
+
 
 }
 
@@ -33,7 +33,7 @@ header{
 
 .hamburguesa{
     display: inline;
-    
+
 }
 
 .fas.fa-bars{
@@ -47,7 +47,7 @@ header{
     float: right;
     overflow: hidden;
 
-    
+
 }
 
 .usuario{
@@ -57,11 +57,11 @@ header{
 }
 
 .fas.fa-user{
- 
+
     color: white;
     margin-top: 6px;
     margin-right: 2px;
-    
+
 }
 
 .login-escritorio{
@@ -76,7 +76,7 @@ header{
     color: white;
     margin-right: 5px;
     margin-top: 6px
-    
+
 }
 
 
@@ -103,8 +103,13 @@ form{
 input.buscar{
     width: 100%;
     text-align: -webkit-center;
-    -webkit-appearance: button; 
+    -webkit-appearance: button;
 
+}
+
+#body{
+  position: relative;
+  height: 100%
 }
 
 #carouselExampleControls{
@@ -112,13 +117,16 @@ margin-top: 5px;
 }
 
 .carousel-item-active{
-    position: relative;
+    position: absolute;
+    height: 100%;
+    width: auto;
+    position: absolute;
 }
 
 .texto-viaje{
     position: absolute;
     bottom: 1%;
-    left: 7px;      
+    left: 7px;
 }
 
 .texto-viaje h2{
@@ -140,7 +148,7 @@ margin-top: 5px;
 .texto-gastro h2{
     color: white;
     font-family:'Comfortaa', cursive;
-    font-size: 1.0em;  
+    font-size: 1.0em;
 }
 
 .texto-musica{
@@ -154,11 +162,46 @@ margin-top: 5px;
     font-family:'Comfortaa', cursive;
     font-size: 1.5em;
 }
+.productos {
+  position: relative;
+  top:20px;
+  left: 30px;
+  height: 50%;
+  box-sizing: border-box;
 
+}
+.productos h3 {
+  text-align: center;
+  color: black;
+  background-color: white;
+  left:30px;
+}
+
+.productos .producto1 #cena-de-sushi-para-dos {
+  position: absolute;
+  float: left;
+  height: 60px;
+  width: 60px;
+}
+
+.productos .producto2 #salto-en-paracaidas {
+  position: block;
+  float: center;
+  height: 60px;
+  width: 60px;
+
+}
+
+.productos .producto3 #dia-de-spa-en-pareja{
+  position: absolute;
+  float: right;
+  height: 60px;
+  width: 60px;
+}
 /*versión de Escritorio*/
 
 @media (min-width: 1024px){
-  
+
     header{
         height: 50px;
     }
@@ -172,7 +215,7 @@ margin-top: 5px;
 
     .usuario{
         display: none;
-        
+
     }
 
 
@@ -180,7 +223,7 @@ margin-top: 5px;
         margin-right: 30px;
         display: inline-block;
         padding-top: 6px;
-    
+
     }
     .login-escritorio li{
         display: inline;
@@ -195,15 +238,18 @@ margin-top: 5px;
     .fas.fa-shopping-cart{
         margin-top: 14px;
         margin-right: 30px;
-       
+
     }
 
     .busqueda{
         text-align: center;
     }
 
+
     .carousel-inner{
         height: 100%;
+        width: inherit;
+        position: absolute;
     }
 
     .texto-viaje{
@@ -224,6 +270,3 @@ margin-top: 5px;
         font-size: 3em;
     }
 }
-
-    }
-
