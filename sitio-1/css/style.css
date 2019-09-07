@@ -155,6 +155,8 @@ margin-top: 5px;
     font-size: 1.5em;
 }
 
+
+
 /*versión de Escritorio*/
 
 @media (min-width: 1024px){
@@ -223,7 +225,5 @@ margin-top: 5px;
         right: 5%;
         font-size: 3em;
     }
+
 }
-
-    }
-
