@@ -1,0 +1,26 @@
+.registro {
+  position: relative;
+  position: center;
+  left: 50px;
+  font-family: 'Comfortaa', cursive;
+}
+
+form {
+  position: absolute;
+  text-align: center;
+  position: center;
+}
+
+h1 {
+  font-family: 'Comfortaa', cursive;
+  position: center;
+  text-align: center;
+}
+
+#boton-enviar {
+  font-family: Arial;
+}
+
+#boton-enviar hover {
+  background-color: #FFE819
+}
