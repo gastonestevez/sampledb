@@ -1,0 +1,21 @@
+div .formulario-ingreso {
+  position: relative;
+  position: center;
+  left: 50px;
+  font-family: 'Comfortaa', cursive;
+  size: 320px;
+}
+
+h1 {
+  position: relative;
+  position: center;
+  left: 50px;
+  font-family: 'Comfortaa', cursive;
+}
+
+button {
+  position: relative;
+  position: center;
+  left: 50px;
+  font-family: 'Comfortaa', cursive;
+}
